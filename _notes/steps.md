@@ -6,8 +6,36 @@ Create client
     npm i create-react-app -g
     cd medium-clone
     create-react-app .
+
+    npm i axios history prop-types react-google-login redux react-redux react-router-dom react-router-redux redux-devtools-extension redux-logger redux-thunk -S
+```
+- history is a JavaScript library that lets you easily manage session history anywhere JavaScript runs
+
+### Create reducers and states
+```
+    mkdir src/redux
+
+    mkdir src/redux/reducers
+    touch src/redux/reducers/articles.js
+    touch src/redux/reducers/authUser.js
+    touch src/redux/reducers/common.js
 ```
 
+### Combine reducers into a single reducers
+
+### Create actions
+
+### Craete store
+     use the reducer as an argument to create our store
+
+### Bind react with redux store
+```
+    <Provider store={store}>
+        <App />
+    </Provider>
+```
+
+### Add components and routes
 
 ## Server side
 ```
