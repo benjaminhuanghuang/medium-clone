@@ -35,3 +35,7 @@ Create client
 ```
     touch server/app.js
 ```
+### Run server
+```
+    node server/app.js
+```

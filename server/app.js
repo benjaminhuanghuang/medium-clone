@@ -1,6 +1,4 @@
-/ server/app.js
-
-/** require dependencies */
+// server/app.js
 const express = require("express")
 const mongoose = require('mongoose')
 // cors: It prevents cross-origin request errors.
@@ -9,6 +7,7 @@ const cors = require('cors')
 const bodyParser = require('body-parser')
 // armours the APIs to prevent attacks.
 const helmet = require('helmet')
+// Image/Video service which handles media
 const cloudinary = require('cloudinary')
 
 // App routes
