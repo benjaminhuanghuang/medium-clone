@@ -4,7 +4,8 @@ This is a [Medium](https://medium.com) clone project using [React.js](https://re
 ## Reference
 - [Build simple Medium.com on Node.js and React.js](https://codeburst.io/build-simple-medium-com-on-node-js-and-react-js-a278c5192f47)
     - https://github.com/krissnawat/medium-clone-on-node
-# Technologies
+
+## Technologies
 1. [React.js](https://reactjs.org)
 1. [Redux](https://redux.js.org)
 1. [create-react-app](https://github.com/facebook/create-react-app)
